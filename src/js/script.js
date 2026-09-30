@@ -8,5 +8,5 @@ const checkbox = document.querySelector("#dark");
 // (ou seja, toda vez que o estado do checkbox muda, como quando o usuário clica nele). Quando isso acontece, ele executa a função de flecha
 checkbox.addEventListener('change', () => {
 //É a linha principal da lógica. A propriedade classList.toggle verifica se a tag <html> (armazenada na constante html) já possui a classe CSS chamada "light-theme".
- html.classList.toggle("light-theme");
+    html.classList.toggle("light-theme");
 });
